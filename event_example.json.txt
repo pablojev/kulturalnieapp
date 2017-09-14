@@ -1,0 +1,40 @@
+[
+
+    {
+        "id":20744,
+        "place":{
+            "id":7,
+            "address":{
+                "street":"Powsta\u0144c\u00f3w Warszawskich 25",
+                "zipcode":"80-152",
+                "city":"Gda\u0144sk",
+                "lat":"54.355059",
+                "lng":"18.630071"
+            },
+            "subname":"Scena Muzyczna",
+            "name":"Gda\u0144ski Archipelag Kultury",
+            "distance":0.68971671115897
+        },
+        "endDate":"2016-10-25T23:59:59+0200",
+        "name":"Dancehall",
+        "urls":{
+            "www":"http:\/\/scenamuzyczna.pl"
+        },
+        "attachments":[
+        ],
+        "descLong":" Info o prowadz\u0105cej\u00a0<\/p> Daria Zulewska - wszechstronna tancerka, swoj\u0105 przygod\u0119 z ta\u0144cem zaczela maj\u0105c 8 lat, ta\u0144czy\u0142a takie style jak hip-hop, haus, afro, tance standardowe i latynoameryka\u0144skie . Specjalizuje si\u0119 w ta\u0144cu dancehall od 6 lat . Kultur\u0119 ta\u0144ca poznawa\u0142a na ulicach Jamajki.\u00a0Szkoli\u0142a si\u0119 u \u015bwiatowych ikon dancehall'u takich jak : Boysie Roses, Orville Hall, Dansa Bling, Team Magnificent, Andre Cosmic, Craig Black Eagle, Freshh Diceja, DHQ Nickeisha, DHQ Latesha, Ciagle rozwijaj\u0105ca si\u0119 tancerka a to dopiero pocz\u0105tek jej drogi.<\/p> \u00a0<\/p> \u00a0<\/p>",
+        "categoryId":77,
+        "startDate":"2016-10-25T17:00:00+0200",
+        "organizer":{
+            "id":5,
+            "designation":"Gda\u0144ski Archipelag Kultury"
+        },
+        "active":1,
+        "descShort":"Info o prowadz\u0105cej\u00a0Daria Zulewska - wszechstronna tancerka, swoj\u0105 przygod\u0119 z ta\u0144cem zaczela maj\u0105c 8 lat, ta\u0144czy\u0142a takie style jak hip-hop, haus, afro, tance standardowe i latynoameryka\u0144skie . Specjalizuje si\u0119 w ta\u0144cu dancehall od 6 lat . K...",
+        "tickets":{
+            "type":"unknown"
+        },
+        "category":"Rekreacja"
+    }
+
+]

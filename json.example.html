@@ -1,0 +1,67 @@
+<html>
+	<head>
+		<meta charset='utf-8' />
+		<title>test</title>
+	</head>
+	<body>
+	<script>
+	var x = [ 
+		{ 	id: 27550, 
+			place: { 
+				id: 29, 
+				name: "Instytut Kultury Miejskiej" 
+			}, 
+			endDate: "2016-10-22T20:00:00+0200", 
+			name: "Filmy w IKM | Tydzie\u0144 Niemiecki", 
+			urls: { 
+				www: "http:\/\/teatrszekspirowski.pl\/wydarzenia\/przeglad-filmow-ikm\/" 
+			}, 
+			attachments: [], 
+			descLong: "opis",
+			categoryId: 96, 
+			startDate: "2016-10-26T16:00:00+0200",
+			organizer: {
+				id: 13,
+				designation: "Instytut Kultury Miejskiej"
+				},
+			active: 1,
+			tickets: {
+				type: "free"
+			} 
+		},
+		{ 	id: 28419, 
+			place: { 
+				id: 29, 
+				name :"Instytut Kultury Miejskiej" 
+			}, 
+			endDate: "2016-11-14T19:30:00+0100", 
+			name: "\"W drodze na Hokkaido...\" - spotkanie podr\u00f3\u017cnicze", 
+			urls: {}, 
+			attachments: [ 
+				{ fileName: "events\/eventthumb_5808a35946b93.png" } 
+			], 
+			descLong: "opis #2",
+			categoryId: 96,
+			category:"Rekreacja",
+			startDate: "2016-11-14T18:00:00+0100", 
+			organizer: { 
+				id: 13, 
+				designation: "Instytut Kultury Miejskiej"
+			}, 
+			active: 1, 
+			descShort:"Zapraszamy na opowie\u015b\u0107 o japo\u0144skiej prowincji - \u015bwiecie osza\u0142amiaj\u0105cej przyrody, gor\u0105cych \u017ar\u00f3de\u0142 i dymi\u0105cych wulkan\u00f3w...", 
+			tickets: { 
+				type :"free"
+			}
+		}
+	];
+
+
+	for(var i in x) {
+		console.log(x[i].id);
+		console.log(x[i].category);
+	}
+	</script>
+
+	</body>
+</html>

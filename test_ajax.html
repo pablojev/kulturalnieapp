@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+	<title>TEST</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$.ajax({
+				url: 'events.php',
+				dataType: 'json',
+				data: {
+					lat: 54.349,
+					lng: 18.6324,
+					distanceMax: 2,
+					dateStart: '2016-10-20',
+					dateEnd: '2016-10-27',
+					category: null,
+					offset: 0,
+					count: 1
+				},
+				success: function(data) {
+					console.log(data);
+				}
+			});
+		});
+	</script>
+</head>
+<body>
+	<div id="events"></div>
+</body>
+</html>
